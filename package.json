@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "stop": "killall node"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,8 @@
     "md5": "^2.2.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.22",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
   }
 }

@@ -1,11 +1,6 @@
-const users = require("./user");
 
-const messages = require("./message");
-
-const rooms = require("./room");
+const chatRooms=require('./chatRooms')
 
 module.exports = {
-  users,
-  rooms,
-  messages
+chatRooms
 };
